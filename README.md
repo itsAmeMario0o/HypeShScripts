@@ -1,10 +1,10 @@
 # HypeShScripts
 
-Run in a virtual environment:
-# python -m venv venv
-# source venv/bin/activate
+Scripts to interact with Hypershield API
 
-Set environment variable on your machine. For MacOS:
+# Get started
+
+1 - Set environment variable on your machine. For MacOS:
 
 nano ~/.bash_profile
 export BEARER_TOKEN="your_token_here"
@@ -18,3 +18,8 @@ source ~/.bash_profile
 Verify environment variable set:
 
 echo $BEARER_TOKEN
+
+2 - Run in a virtual environment:
+
+python -m venv venv
+source venv/bin/activate
