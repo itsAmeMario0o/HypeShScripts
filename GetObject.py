@@ -25,6 +25,6 @@ def make_request(jwt_token):
         print(response.text)
 
 # Replace 'token.json' with the actual path to your JSON file
-token_file = 'token.json'
+token_file = 'token1.json'
 jwt_token = get_token_from_json(token_file)
 make_request(jwt_token)
