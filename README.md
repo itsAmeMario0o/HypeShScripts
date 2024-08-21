@@ -7,6 +7,7 @@ Scripts to interact with Hypershield API
 1 - Set environment variable on your machine. For MacOS:
 
 nano ~/.bash_profile
+
 export BEARER_TOKEN="your_token_here"
 
 Save and close
