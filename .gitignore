@@ -1,3 +1,5 @@
+#structure
+/venv
 #sensitive
 token
 token1.json
